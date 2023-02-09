@@ -1,5 +1,15 @@
+import Container from './components/container/Container';
+import Subtitle from './components/subtitle/Subtitle';
+import Title from './components/title/Title';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<Title />
+			<Subtitle />
+			<Container />
+		</>
+	);
 };
 
 export default App;
